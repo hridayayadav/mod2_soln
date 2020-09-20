@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>assignment</title> 
+  <style>
+    .title {
+  width: 90%;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 175%;
+  }
+   .menu-title{
+     width:40%;
+     float:right;
+     position:relative;
+     top:0px;
+     border: 2px solid black;
+     text-align: center;
+     font-size: 125%;
+     float:right;
+   }
+
+   .menu{
+     background-color:grey;
+     margin:10px;
+     border:2px solid black;
+   }
+
+   .text{
+     margin:10px;
+     margin-top:40px;
+     clear:both;
+   }
+
+   .row {
+    width: 90%;
+    border: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:5px;
+   }
+   #Chicken{background-color: pink;}
+   #Beef{background-color: red; }
+   #Sushi{background-color: yellow;}
+   
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    background-color: white;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    background-color: white;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {.col-sm-12 {
+    float: left;
+    background-color: white;
+    width: 100%;}
+}
+</style> 
+ </head> 
+ <body> 
+  <div class="title">
+    Our Menu 
+  </div> 
+  <div class="row"> 
+   <div class="col-lg-4 col-md-6 col-sm-12"> 
+    <div class="menu"> 
+     <div class="menu-title" id="Chicken">
+      Chicken 
+     </div> 
+     <p class="text">Hello MF!! >>>.:::This is Just a dumy textKhdbhbfbh gff njfggf nbhghdg nbjdbjvbnbc xmcbdjcbhjbc nc nbhcvhvchsvchs cbscvhscvhs cbs chsvc scvsghc sghc sc bsc </p> 
+    </div> 
+   </div> 
+   <div class="col-lg-4 col-md-6 col-sm-12"> 
+    <div class="menu"> 
+     <div class="menu-title" id="Beef">
+      Beef 
+     </div> 
+     <p class="text">Hello MF!! >>>.:::This is Just a dumy textKhdbhbfbh gff njfggf nbhghdg nbjdbjvbnbc xmcbdjcbhjbc nc nbhcvhvchsvchs cbscvhscvhs cbs chsvc scvsghc sghc sc bsc   </p> 
+    </div> 
+   </div> 
+   <div class="col-lg-4 col-md-6 col-sm-12"> 
+    <div class="menu"> 
+     <div class="menu-title" id="Sushi">
+       Sushi
+     </div> 
+     <p class="text">Hello MF!! >>>.:::This is Just a dumy textKhdbhbfbh gff njfggf nbhghdg nbjdbjvbnbc xmcbdjcbhjbc nc nbhcvhvchsvchs cbscvhscvhs cbs chsvc scvsghc sghc sc bsc  </p> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>
